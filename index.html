@@ -54,7 +54,7 @@
 					<div class="card-body">
 						<h5 class="card-title">The Wonders of Science: Exploring the Universe</h5>
 						<p class="card-text">Dive into the fascinating world of scientific discovery! This resource provides interactive lessons on physics, chemistry, and biology, helping learners grasp complex scientific concepts through engaging explanations and experiments.</p>
-						<button class="btn btn-primary">Discover</button>
+						<a href="#" class="btn btn-primary">Discover</a>
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 					<div class="card-body">
 						<h5 class="card-title">Unraveling History: A Journey Through Time</h5>
 						<p class="card-text">Explore pivotal historical events, influential figures, and civilizations that shaped the world we live in today.</p>
-						<button class="btn btn-primary">Explore</button>
+						<a href="#" class="btn btn-primary">Explore</a>
 					</div>
 				</div>
 			</div>
@@ -74,41 +74,91 @@
 
 	<!-- Categories Section Start -->
 	<section id="categories-section" class="container mt-5">
-		<h2 class="text-center text-white">Explore by Category</h2>
-		<p class="text-center text-white">Select a category to discover in-depth educational materials.</p>
+		    <div class="container p-4 border rounded bg-dark text-white">
+		        <h2 class="text-center">Explore by Category</h2>
+		        <p class="text-center">Select a category to discover in-depth educational materials.</p>
 
-		<div id="categories">
-			<div class="category-block text-center mt-4 p-3 border rounded bg-dark text-white">
-				<h3>Mathematical Foundations</h3>
-				<p>Enhance your problem-solving skills with guides, practice problems, and strategies in mathematics.</p>
-				<button class="btn btn-primary">Learn More</button>
-			</div>
+		        <div id="categories">
+		            <div class="category-block text-center mt-4 p-3 border rounded bg-dark text-white">
+		                <h3>Mathematical Foundations</h3>
+		                <p>Enhance your problem-solving skills with guides, practice problems, and strategies in mathematics.</p>
+		                <a href="#" class="btn btn-primary">Learn More</a>
+		            </div>
 
-			<div class="category-block text-center mt-4 p-3 border rounded bg-dark text-white">
-				<h3>Technology & Innovation</h3>
-				<p>Learn about cutting-edge technologies, digital learning tools, and the future of education.</p>
-				<button class="btn btn-primary">Learn More</button>
-			</div>
+		            <div class="category-block text-center mt-4 p-3 border rounded bg-dark text-white">
+		                <h3>Technology & Innovation</h3>
+		                <p>Learn about cutting-edge technologies, digital learning tools, and the future of education.</p>
+		                <a href="#" class="btn btn-primary">Learn More</a>
+		            </div>
+		        </div>
+		    </div>
+		    <div id="resources" class="text-center mt-4 p-3 border rounded bg-dark text-white">
+		        <h3>Resources</h3>
+		        <p>Browse through educational materials that complement each category.</p>
 
-			<div id="resources" class="text-center mt-4 p-3 border rounded bg-secondary text-white">
-			    <h3>Resources</h3>
-			    <p>Browse through educational materials that complement each category.</p>
+		        <div class="resource-item text-center mt-3 p-3 border rounded bg-dark">
+		            <h4>Understanding Algebra: A Beginner's Guide</h4>
+		            <p>Learn core algebraic principles with interactive exercises and real-world applications to enhance your problem-solving skills.</p>
+		            <a href="#" class="btn btn-primary">View Resource</a>
+		        </div>
 
-			    <div class="resource-item text-center mt-3 p-3 border rounded bg-dark">
-			        <h4>📚 Understanding Algebra: A Beginner's Guide</h4>
-			        <p>Learn core algebraic principles with interactive exercises and real-world applications to enhance your problem-solving skills.</p>
-			        <a href="#" class="btn btn-primary">View Resource</a>
-			    </div>
-
-			    <div class="resource-item text-center mt-3 p-3 border rounded bg-dark">
-			        <h4>💡 AI & Machine Learning Basics</h4>
-			        <p>Discover how artificial intelligence and machine learning are transforming education and industries worldwide.</p>
-			        <a href="#" class="btn btn-primary">View Resource</a>
-			    </div>
-			</div>
-		</div>
+		        <div class="resource-item text-center mt-3 p-3 border rounded bg-dark">
+		            <h4>AI & Machine Learning Basics</h4>
+		            <p>Discover how artificial intelligence and machine learning are transforming education and industries worldwide.</p>
+		            <a href="#" class="btn btn-primary">View Resource</a>
+		        </div>
+		    </div>
 	</section>
 	<!-- Categories Section End -->
+
+	<!-- About Section Start -->
+	<section id="about" class="container mt-5">
+
+		<div class="container p-4 border rounded bg-dark text-white">
+			<div class="text-center mt-3 p-3 border rounded bg-dark text-white">
+				<h1>About Us</h1>
+				<p>Learn more about our mission and how we are making education accessible for everyone.</p>
+			</div>
+
+			<div id="mission" class="text-center mt-3 p-3 border rounded bg-dark text-white  ">
+				<h2>Our Mission</h2>
+				<p>At **EduHub**, we strive to make education accessible to everyone, empowering learners with free, high-quality resources.  
+				Our goal is to foster curiosity, creativity, and critical thinking across diverse subjects—including **science, mathematics, history, and technology**—so that learning never stops!</p>
+				<p>**Learn. Explore. Innovate. Together, we shape the future of education!**</p>
+			</div>
+		</div>
+
+		<div id="contact" class="container mt-4 p-4 border rounded bg-dark text-white">
+		    <h2 class="text-center">Contact Us</h2>
+		    <p class="text-center">Have questions, suggestions, or collaboration ideas? Reach out to us!</p>
+
+		    <div class="row">
+		        <!-- Left Side: Contact Form -->
+		        <div class="col-md-6">
+		            <h3>Contact Us</h3>
+		            <form>
+		                <input type="text" class="form-control mb-2" placeholder="Your Name">
+		                <input type="email" class="form-control mb-2" placeholder="Your Email">
+		                <textarea class="form-control mb-2" rows="4" placeholder="Your Message"></textarea>
+		                <button class="btn btn-success">Send</button>
+		            </form>
+		        </div>
+
+		        <!-- Right Side: Google Map -->
+		        <div class="col-md-6">
+		            <h3>Find Us</h3>
+		            <iframe 
+		                class="w-100 rounded"
+		                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.27991923275!2d-74.25986793506037!3d40.6976700677431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5c47f8b23%3A0xc80f7b3e4b3a26a7!2sNew%20York!5e0!3m2!1sen!2sus!4v1621538890234!5m2!1sen!2sus" 
+		                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+		            </iframe>
+		        </div>
+		    </div>
+		</div>
+	</section>
+	<!-- About Section End -->
+
+
 
 	<!-- Bootstrap Script -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
