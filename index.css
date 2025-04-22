@@ -7,10 +7,18 @@ body {
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.card-body button {
+    margin-top: auto;
 }
